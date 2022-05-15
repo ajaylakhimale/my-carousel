@@ -88,7 +88,7 @@ class _CarouselState extends State<Carousel> {
         margin: const EdgeInsets.only(left: 5, right: 5),
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(10),
-          color: index.isEven ? Colors.redAccent : Colors.pinkAccent,
+          color: index.isOdd ? Colors.redAccent : Colors.pinkAccent,
           image: const DecorationImage(
             fit: BoxFit.cover,
             image: NetworkImage(
